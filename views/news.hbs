@@ -1,0 +1,9 @@
+<h1>Новости {{title}}</h1>
+{{#each news}}
+    <p>
+        <span>{{this.time}} :</span>
+        <span>
+            {{this.newTitle}}
+        </span>
+    </p>
+{{/each}}
